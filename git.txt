@@ -1,0 +1,18 @@
+원하는 폴더 이동 
+git init
+git status
+
+git add test.html
+git add .
+
+git config --global user.email "yoonslabs@gmail.com"
+git config --global user.name "donggyu"
+
+
+git commit -am "firt commit"
+git log
+
+#git remote add origin https://github.com/donggyulab/academia
+
+git push origin main
+#git pull origin main

@@ -10,8 +10,8 @@ headless: true
 weight: 50
 
 # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-title: '공부 수료'
-subtitle:
+title: Study completion
+subtitle: They are my study complection.
 
 # Date format
 #   Refer to https://wowchemy.com/docs/customization/#date-format
@@ -23,28 +23,22 @@ date_format: Jan 2006
 #   Leave other parameters empty if not required.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 item:
-- certificate_url: https://courses.edx.org/certificates/7e0c08bdf131414faa9335f68a62682c
+- title: Python Basics for Data Science
+  certificate_url: https://courses.edx.org/certificates/7e0c08bdf131414faa9335f68a62682c
   date_end: ""
-  date_start: "2020-12-20"
-  description: ""
-  organization: EdX
+  date_start: "2020-12-29"
+  description: It is my first IBM certificate.
+  organization: edX
   organization_url: https://www.edx.org/
-  title: python basics for data science
   url: ""
-- certificate_url: https://www.edx.org
+  
+- title: Analyzing Data with Python
+  certificate_url: https://courses.edx.org/certificates/59fd50aedb4540808156c01a2753af23
   date_end: ""
-  date_start: "2018-03-01"
-  description: Formulated informed blockchain models, hypotheses, and use cases.
+  date_start: "2021-01-02"
+  description: It is my second IBM certificate.
   organization: edX
   organization_url: https://www.edx.org
-  title: Blockchain Fundamentals
-  url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-- certificate_url: https://www.datacamp.com
-  date_end: "2017-12-21"
-  date_start: "2017-07-01"
-  description: ""
-  organization: DataCamp
-  organization_url: https://www.datacamp.com
-  title: 'Object-Oriented Programming in R: S3 and R6 Course'
   url: ""
+  
 ---
